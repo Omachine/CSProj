@@ -1,0 +1,36 @@
+@InventoryAPI_HostAddress = http://localhost:5122/api/items
+
+GET {{InventoryAPI_HostAddress}}/
+Accept: application/json
+
+###
+GET {{InventoryAPI_HostAddress}}/2
+Accept: application/json
+
+###
+POST {{InventoryAPI_HostAddress}}/
+Content-Type: application/json
+
+{
+    "id" : 1,
+    "name": "Item 1",
+    "description": "This is a description",
+    "price": 9.99
+}
+
+###
+
+PUT {{InventoryAPI_HostAddress}}/2
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Item 2",
+    "description": "This is a description for a second item",
+    "price": 9.99
+}
+
+###
+
+DELETE {{InventoryAPI_HostAddress}}/2
+Content-Type: application/json

@@ -1,0 +1,18 @@
+@Serialization_HostAddress = http://localhost:5048
+
+GET {{Serialization_HostAddress}}/manual-json
+Accept: application/json
+
+###
+
+GET {{Serialization_HostAddress}}/json
+Accept: application/json
+###
+
+GET {{Serialization_HostAddress}}/auto
+Accept: application/json
+
+###
+
+GET {{Serialization_HostAddress}}/xml
+Accept: application/json

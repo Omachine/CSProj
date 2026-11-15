@@ -1,0 +1,29 @@
+@MyFirstAPI_HostAddress = http://localhost:5286
+
+GET {{MyFirstAPI_HostAddress}}/api/Products
+Accept: application/json
+
+
+### Get products
+GET http://localhost:5286/api/Products
+
+### Add product
+POST http://localhost:5286/api/Products
+Content-Type: application/json
+
+{
+  "name": "Pear",
+  "price": 1.99
+}
+
+### Update product
+PUT http://localhost:5286/api/Products/1
+Content-Type: application/json
+
+{
+  "name": "Green Apple",
+  "price": 2.49
+}
+
+### Delete product
+DELETE http://localhost:5286/api/Products/1

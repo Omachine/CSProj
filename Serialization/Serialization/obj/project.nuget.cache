@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lXpx1HMPQf4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cruzm\\Desktop\\CSProj\\Serialization\\Serialization\\Serialization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cruzm\\.nuget\\packages\\microsoft.aspnetcore.openapi\\11.0.0\\microsoft.aspnetcore.openapi.11.0.0.nupkg.sha512",
+    "C:\\Users\\cruzm\\.nuget\\packages\\microsoft.openapi\\3.11.0\\microsoft.openapi.3.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

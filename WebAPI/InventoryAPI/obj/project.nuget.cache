@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JaH9MrUlf9E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cruzm\\Desktop\\CSProj\\WebAPI\\InventoryAPI\\InventoryAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cruzm\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.12\\microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "C:\\Users\\cruzm\\.nuget\\packages\\microsoft.openapi\\2.12.0\\microsoft.openapi.2.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
